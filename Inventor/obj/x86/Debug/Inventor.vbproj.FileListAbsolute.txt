@@ -1,0 +1,29 @@
+C:\Users\Akash\AppData\Local\Temporary Projects\Inventor\bin\Debug\Inventor.exe
+C:\Users\Akash\AppData\Local\Temporary Projects\Inventor\bin\Debug\Inventor.pdb
+C:\Users\Akash\AppData\Local\Temporary Projects\Inventor\bin\Debug\Inventor.xml
+C:\Users\Akash\AppData\Local\Temporary Projects\Inventor\obj\x86\Debug\Inventor.Form1.resources
+C:\Users\Akash\AppData\Local\Temporary Projects\Inventor\obj\x86\Debug\Inventor.Resources.resources
+C:\Users\Akash\AppData\Local\Temporary Projects\Inventor\obj\x86\Debug\Inventor.vbproj.GenerateResource.Cache
+C:\Users\Akash\AppData\Local\Temporary Projects\Inventor\obj\x86\Debug\Inventor.exe
+C:\Users\Akash\AppData\Local\Temporary Projects\Inventor\obj\x86\Debug\Inventor.xml
+C:\Users\Akash\AppData\Local\Temporary Projects\Inventor\obj\x86\Debug\Inventor.pdb
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\bin\Debug\Inturn.accdb
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\bin\Debug\Inventor.exe.config
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\bin\Debug\Inventor.exe
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\bin\Debug\Inventor.pdb
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\bin\Debug\Inventor.xml
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\obj\x86\Debug\Inventor.Resources.resources
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\obj\x86\Debug\Inventor.invoicefrm.resources
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\obj\x86\Debug\Inventor.MainFrm.resources
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\obj\x86\Debug\Inventor.Productsfrm.resources
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\obj\x86\Debug\Inventor.StockFrm.resources
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\obj\x86\Debug\Inventor.Vendorsfrm.resources
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\obj\x86\Debug\Inventor.vbproj.GenerateResource.Cache
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\obj\x86\Debug\Inventor.exe
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\obj\x86\Debug\Inventor.xml
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\obj\x86\Debug\Inventor.pdb
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\bin\Debug\Inventor.exe.manifest
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\bin\Debug\Inventor.application
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\obj\x86\Debug\Inventor.exe.manifest
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\obj\x86\Debug\Inventor.application
+C:\Users\Akash\documents\visual studio 2010\Projects\Inventor\Inventor\obj\x86\Debug\Inventor.frmRecipt.resources

@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3EB9B18-5F5B-42ED-8AA3-8D508ACC5501}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Inventor.My.MyApplication</StartupObject>
+    <RootNamespace>Inventor</RootNamespace>
+    <AssemblyName>Inventor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Akash\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Inventor.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Inventor.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>016C71D819225836003A2C3D4D6CCC216FD1BF8D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Inventor_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InturnDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InturnDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Screens\frmRecipt.Designer.vb">
+      <DependentUpon>frmRecipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\frmRecipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\invoicefrm.Designer.vb">
+      <DependentUpon>invoicefrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\invoicefrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\MainFrm.Designer.vb">
+      <DependentUpon>MainFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\MainFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Productsfrm.Designer.vb">
+      <DependentUpon>Productsfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Productsfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\StockFrm.Designer.vb">
+      <DependentUpon>StockFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\StockFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Vendorsfrm.Designer.vb">
+      <DependentUpon>Vendorsfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Vendorsfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\frmRecipt.resx">
+      <DependentUpon>frmRecipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\invoicefrm.resx">
+      <DependentUpon>invoicefrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\MainFrm.resx">
+      <DependentUpon>MainFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Productsfrm.resx">
+      <DependentUpon>Productsfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\StockFrm.resx">
+      <DependentUpon>StockFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Vendorsfrm.resx">
+      <DependentUpon>Vendorsfrm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="InturnDataSet.xsc">
+      <DependentUpon>InturnDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="InturnDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InturnDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="InturnDataSet.xss">
+      <DependentUpon>InturnDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Inventor_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Inturn.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\icons8-printer-26.png" />
+    <None Include="Resources\icons8-print-file-32.png" />
+    <None Include="Resources\icons8-print-24.png" />
+    <None Include="Resources\icons8-print-30.png" />
+    <None Include="Resources\icons8-refresh-50.png" />
+    <None Include="Resources\icons8-sale-50.png" />
+    <None Include="Resources\icons8-close-sign-50.png" />
+    <None Include="Resources\icons8-calculator-50.png" />
+    <None Include="Resources\icons8-plus-50.png" />
+    <None Include="Resources\icons8-add-new-80.png" />
+    <None Include="Resources\icons8-add-user-male-80.png" />
+    <None Include="Resources\icons8-save-100.png" />
+    <None Include="Resources\icons8-delete-100.png" />
+    <None Include="Resources\icons8-close-window-100.png" />
+    <None Include="Resources\icons8-shipped-100.png" />
+    <None Include="Resources\icons8-product-100.png" />
+    <None Include="Resources\icons8-sell-stock-100.png" />
+    <None Include="Resources\icons8-sell-stock-80.png" />
+    <None Include="Resources\icons8-add-receipt-80.png" />
+    <None Include="Resources\icons8-shutdown-80.png" />
+    <None Include="Resources\icons8-shutdown-80 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
